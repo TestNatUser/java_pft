@@ -14,7 +14,6 @@ public class Solution {
         for (File file: folder.listFiles()){
             if(file.length()<=50){
                 FileWriter fos = new FileWriter(new File(args[1]));
-                fos.write(file.);
             }
         }
     }
